@@ -16,6 +16,12 @@
 		57AD344D298D6F2C005A0F52 /* MindteckTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD344C298D6F2C005A0F52 /* MindteckTaskTests.swift */; };
 		57AD3457298D6F2C005A0F52 /* MindteckTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3456298D6F2C005A0F52 /* MindteckTaskUITests.swift */; };
 		57AD3459298D6F2C005A0F52 /* MindteckTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3458298D6F2C005A0F52 /* MindteckTaskUITestsLaunchTests.swift */; };
+		57AD3471298E1D71005A0F52 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3470298E1D71005A0F52 /* HomeViewController.swift */; };
+		57AD3475298E204E005A0F52 /* BannerCustomTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3474298E204E005A0F52 /* BannerCustomTVCell.swift */; };
+		57AD3477298E2067005A0F52 /* ProductTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3476298E2067005A0F52 /* ProductTVCell.swift */; };
+		57AD3481298E4020005A0F52 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3480298E4020005A0F52 /* BannerCollectionViewCell.swift */; };
+		57AD3483298ECF1C005A0F52 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3482298ECF1C005A0F52 /* Constant.swift */; };
+		57AD3486298ED030005A0F52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AD3485298ED030005A0F52 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		57AD3452298D6F2C005A0F52 /* MindteckTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AD3456298D6F2C005A0F52 /* MindteckTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTaskUITests.swift; sourceTree = "<group>"; };
 		57AD3458298D6F2C005A0F52 /* MindteckTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57AD3470298E1D71005A0F52 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57AD3474298E204E005A0F52 /* BannerCustomTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCustomTVCell.swift; sourceTree = "<group>"; };
+		57AD3476298E2067005A0F52 /* ProductTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTVCell.swift; sourceTree = "<group>"; };
+		57AD3480298E4020005A0F52 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		57AD3482298ECF1C005A0F52 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		57AD3485298ED030005A0F52 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,12 @@
 		57AD3434298D6F2A005A0F52 /* MindteckTask */ = {
 			isa = PBXGroup;
 			children = (
-				57AD3435298D6F2A005A0F52 /* AppDelegate.swift */,
-				57AD3437298D6F2A005A0F52 /* SceneDelegate.swift */,
-				57AD3439298D6F2A005A0F52 /* ViewController.swift */,
-				57AD343B298D6F2A005A0F52 /* Main.storyboard */,
+				57AD346B298D74B6005A0F52 /* Delegate's */,
+				57AD3465298D73FA005A0F52 /* Coordinators */,
+				57AD3466298D7406005A0F52 /* Models */,
+				57AD3468298D744E005A0F52 /* Views */,
+				57AD3467298D7432005A0F52 /* ViewModels */,
+				57AD346A298D749E005A0F52 /* Controllers */,
 				57AD343E298D6F2C005A0F52 /* Assets.xcassets */,
 				57AD3440298D6F2C005A0F52 /* LaunchScreen.storyboard */,
 				57AD3443298D6F2C005A0F52 /* Info.plist */,
@@ -125,6 +139,90 @@
 				57AD3458298D6F2C005A0F52 /* MindteckTaskUITestsLaunchTests.swift */,
 			);
 			path = MindteckTaskUITests;
+			sourceTree = "<group>";
+		};
+		57AD3465298D73FA005A0F52 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3482298ECF1C005A0F52 /* Constant.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		57AD3466298D7406005A0F52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57AD3467298D7432005A0F52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57AD3468298D744E005A0F52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3473298E2004005A0F52 /* CollectionViewCell */,
+				57AD3472298E1FF7005A0F52 /* TableViewCell */,
+				57AD3469298D748F005A0F52 /* Interface */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57AD3469298D748F005A0F52 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				57AD343B298D6F2A005A0F52 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		57AD346A298D749E005A0F52 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3484298ED00C005A0F52 /* BaseViewController */,
+				57AD3439298D6F2A005A0F52 /* ViewController.swift */,
+				57AD3470298E1D71005A0F52 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57AD346B298D74B6005A0F52 /* Delegate's */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3435298D6F2A005A0F52 /* AppDelegate.swift */,
+				57AD3437298D6F2A005A0F52 /* SceneDelegate.swift */,
+			);
+			path = "Delegate's";
+			sourceTree = "<group>";
+		};
+		57AD3472298E1FF7005A0F52 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3474298E204E005A0F52 /* BannerCustomTVCell.swift */,
+				57AD3476298E2067005A0F52 /* ProductTVCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		57AD3473298E2004005A0F52 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3480298E4020005A0F52 /* BannerCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		57AD3484298ED00C005A0F52 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3485298ED030005A0F52 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +359,12 @@
 				57AD343A298D6F2A005A0F52 /* ViewController.swift in Sources */,
 				57AD3436298D6F2A005A0F52 /* AppDelegate.swift in Sources */,
 				57AD3438298D6F2A005A0F52 /* SceneDelegate.swift in Sources */,
+				57AD3483298ECF1C005A0F52 /* Constant.swift in Sources */,
+				57AD3475298E204E005A0F52 /* BannerCustomTVCell.swift in Sources */,
+				57AD3486298ED030005A0F52 /* BaseViewController.swift in Sources */,
+				57AD3471298E1D71005A0F52 /* HomeViewController.swift in Sources */,
+				57AD3481298E4020005A0F52 /* BannerCollectionViewCell.swift in Sources */,
+				57AD3477298E2067005A0F52 /* ProductTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +549,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +578,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
